@@ -5,7 +5,7 @@
 //    const playGroundSection = document.getElementById('play-ground');
 //    playGroundSection.classList.remove('hidden');
 // }
-function play(){
+function playNow(){
     hideElementById('home-section')
     hideElementById('final-score')
     showElementById('play-ground')

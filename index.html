@@ -18,7 +18,7 @@
             <div class="flex flex-col items-center min-h-screen justify-center">
                 <h1 class="font-anton uppercase text-[170px]  ">ALPHABET CLASH</h1>
                 <p class="mb-14 font-medium text-2xl">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
-                <button onclick="play()" class="btn text-[#010313] text-xl font-semibold">Play Now</button>
+                <button onclick="playNow()" class="btn text-[#010313] text-xl font-semibold">Play Now</button>
             </div>
         </section>
         <!-- playground start -->
@@ -89,11 +89,12 @@
         <!-- Final score start -->
         <section id="final-score" class="flex justify-center items-center min-h-screen hidden">
           <div class="text-white text-center space-y-6 bg-[#FFFFFF33] p-12 rounded-lg">
+            <h4 class="text-3xl">Game Over !</h4>
             <h1 class="text-6xl">
                 <span class="font-extrabold">Score:</span>
                 <span id="last-score">14</span>
             </h1>
-            <button onclick="play()" class="btn text-2xl font-semibold px-6">Play Again</button>
+            <button onclick="playNow()" class="btn text-2xl font-semibold px-6">Play Again</button>
             <p class="text-xl font-normal text-white">Practice will make you a pro</p>
           </div>
         </section>
